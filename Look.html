@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru-Ru">
+    <head>
+    	<link rel="stylesheet" type="text/css" href="C:\Users\User\Desktop\Myf\style.css">
+    	<meta charset="UTF-8">
+   	</head>
+
+	<body>
+	<header>
+            <ul>
+            <li class="one"><a href="../Myf/Myf.html"><font face="Palatino Linotype">Главаная</font></a></li><!--
+         --><li class="two"><a href="../Myf/Trendi.html"><font face="Palatino Linotype">Тренды 2021</font></a></li><!--
+         --><li class="three"><a href="../Myf/Table.html"><font face="Palatino Linotype">Тренды и антитренды</font></a></li><!--
+         --><li class="four"><a href="../Myf/Look.html"><font face="Palatino Linotype">Лукбук</font></a></li>
+            <hr/>
+            </ul>
+    </header>    
+    <h2 align="center"><font size="5" face="Palatino Linotype"><em>Модные образы</em></font></h2>
+
+<div class="w3-content w3-section" style="max-width:700px">
+	<img class="mySlides" src="../Myf/Img/sl0.jpg" style="width:100%">
+  	<img class="mySlides" src="../Myf/Img/sl.jpg" style="width:100%">
+  	<img class="mySlides" src="../Myf/Img/sl1.jpg" style="width:100%">
+ 	<img class="mySlides" src="../Myf/Img/sl2.jpg" style="width:100%">
+   	<img class="mySlides" src="../Myf/Img/sl3.jpg" style="width:100%">
+ 	<img class="mySlides" src="../Myf/Img/sl4.jpg" style="width:100%">
+  	<img class="mySlides" src="../Myf/Img/sl5.jpg" style="width:100%">
+   	<img class="mySlides" src="../Myf/Img/sl6.jpg" style="width:100%">
+  	<img class="mySlides" src="../Myf/Img/sl7.jpg" style="width:100%">
+  	<img class="mySlides" src="../Myf/Img/sl8.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+    
+    </body>
+ </html>
