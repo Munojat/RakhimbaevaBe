@@ -51,7 +51,7 @@ hr {
 .baner{
   text-align: right; 
   color: #6F2700;
-  background-image: url(../Myf/Img/D.jpg);
+  background-image: url(Img/D.jpg);
   height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,7 +65,7 @@ hr {
 .baner2{
   text-align: right; 
   color: #6F2700;
-  background-image: url(../Myf/Img/fon1.jpg);
+  background-image: url(Img/fon1.jpg);
   height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,7 +79,7 @@ hr {
 .baner3{
   text-align: right; 
   color: #6F2700;
-  background-image: url(../Myf/Img/fon2.jpg);
+  background-image: url(Img/fon2.jpg);
   height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +93,7 @@ hr {
 .baner4{
   text-align: right; 
   color: #6F2700;
-  background-image: url(../Myf/Img/fon.jpg);
+  background-image: url(Img/fon.jpg);
   height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
